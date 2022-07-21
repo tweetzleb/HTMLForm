@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <form>
+            <fieldset>
+                <legend>Add User</legend>
+
+                <div>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+
+                <div>
+                     <label for="lastname">Last Name:</label>
+                     <input type="lastname" id="lastname" name="lastname">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div>
+                    <label for="Status">Status:</label>
+                    <select id="status" name="position">
+                        <option value="Student">Student</option>
+                        <option value="Instructor">Instructor</option>
+                        <option value="Guest">Guest</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    </head>
+
+    <body>
+        <h2>Welcome! Thank you for participating in our survey :) </h2>
+        <p>Please select your favorite programming language from the table below</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Select your favorite programming language!</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td><input type="radio" id="html" name="survey" value="html"> </td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td><input type="radio" id="CSS" name="survey" value="CSS"> </td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td><input type="radio" id="JavaScript" name="survey" value="JavaScript"> </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <label for="date">Today's Date:</label>
+            <input type="date" id="currentdate" name="date">
+        </div>
+
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comment"></textarea>
+        </div>
+
+    </body>
+
+    <footer>
+        <div>
+            <input type="checkbox" id="subscribe" name="sub" >
+            <label for="subscribe">Sign up for Newsletter</label>
+        </div>
+        <div>
+            <input type="checkbox" id="agree" name="agree" >
+            <label for="agree">Agree to terms and conditions</label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </footer>
+</html>
